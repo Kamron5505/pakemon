@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#212529]">
+
+    <div class="max-w-[1296px] mx-auto">
+        <div class="flex justify-center mt-[146px]">
+            <img src="./gif-poke.gif.png" alt="pokemon img">
+        </div>
+
+        <div class="mt-12 flex items-center gap-12">
+            <input type="text" id="search" class="bg-white px-2 py-1 rounded-sm" placeholder="search your pokemon">
+            <select id="lang" class="bg-white px-2 py-1 rounded-sm">
+                <option value="default">Select</option>
+                <option value="az">A-Z</option>
+                <option value="za">Z-A</option>
+            </select>
+            <select class="bg-white px-2 py-1 rounded-sm">
+                <option value="">sort</option>
+            </select>
+
+            <button id="btn" class="bg-[#198754] rounded-md text-white px-6 py-3">Search</button>
+        </div>
+
+        <div id="row" class="mt-[30px] flex justify-between flex-wrap">
+
+        </div>
+        <!-- <div id="modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center   z-50">
+            <div class="bg-white rounded-xl p-6 max-w-md w-full relative">
+                <button id="closeModal" class="absolute top-2 right-2 text-gray-600 text-xl">&times;</button>
+                <h2 id="modal-name" class="text-2xl font-bold mb-2"></h2>
+                <img id="modal-img" src="" alt="" class="w-32 h-32 object-contain mx-auto mb-4">
+                <p><strong>Type:</strong> <span id="modal-type"></span></p>
+                <p><strong>Height:</strong> <span id="modal-height"></span></p>
+                <p><strong>Weight:</strong> <span id="modal-weight"></span></p>
+            </div>
+        </div>
+
+    </div> -->
+
+    <script defer type="module" src="./script.js"></script>
+</body>
+
+</html>
